@@ -29,7 +29,7 @@ const Projects = () => {
   ];
   return (
     <section className="bg-[#111] text-white">
-      <div className="flex flex-col justify-center items-center py-24">
+      <div className="flex flex-col justify-center items-center pt-24 pb-12">
         <div className="flex flex-col md:flex-row justify-center items-center max-w-7xl space-y-4 md:space-y-0 md:space-x-12">
           <h1 className="headings text-4xl md:text-6xl lg:text-9xl font-bold uppercase">
             Projects

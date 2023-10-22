@@ -9,14 +9,14 @@ const ServiceMarquee = () => {
     "Machine Learning",
     "AWS",
     "Deep Learning",
-    "IOT",
+    "Firebase",
   ];
 
   return (
     <div className="bg-white font-medium py-6 -mt-12 ">
       <Marquee
         pauseOnHover={true}
-        speed={20}
+        speed={50}
         autoFill={true}
         className="overflow-hidden"
       >

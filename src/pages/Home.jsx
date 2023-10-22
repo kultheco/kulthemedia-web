@@ -5,6 +5,7 @@ import Marquee from "../components/HomeComp/Marquee";
 import Footer from "../components/common/Footer";
 import About from "../components/HomeComp/About";
 import OurServices from "../components/HomeComp/OurServices";
+import Projects from "../components/HomeComp/Projects";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Marquee />
       <About />
       <OurServices />
+      <Projects />
       <Footer />
     </section>
   );

@@ -33,10 +33,10 @@ const OurServices = () => {
         </a>
       </div>
 
-      <div className="flex flex-col space-y-8 items-center">
+      <div className="flex flex-col space-y-8 items-center px-2">
         {Services.map((service, index) => (
           <a href={service.link} className="w-full md:w-4/5">
-            <div className="flex justify-between space-x-12 text-xl md:text-5xl lg:text-7xl text-white opacity-80 hover:opacity-100 hover:bg-white hover:text-gray-900 transition-all duration-300 border-2 rounded-full items-center px-12 py-6">
+            <div className="flex justify-between space-x-12 text-xl md:text-3xl lg:text-7xl text-white opacity-80 hover:opacity-100 hover:bg-white hover:text-gray-900 transition-all duration-300 border-2 rounded-full items-center px-4 md:px-7 lg:px-12 py-3 md:py-5 lg:py-6">
               <h1 className="mr-28 font-semibold" key={index}>
                 {service.name}
               </h1>

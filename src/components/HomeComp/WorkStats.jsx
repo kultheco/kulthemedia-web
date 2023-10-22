@@ -28,8 +28,8 @@ const WorkStats = () => {
 
   return (
     <section>
-      <div className="flex justify-center items-start py-24 space-x-3">
-        <div>
+      <div className="flex flex-col md:flex-row justify-center items-start py-12 lg:py-24 space-x-0 md:space-x-3">
+        <div className="hidden lg:inline">
           <img
             src={workenv}
             alt="A work environment at Kulthe Media"
@@ -43,8 +43,10 @@ const WorkStats = () => {
               className="flex flex-col bg-[#333] rounded-3xl p-6 mb-4"
             >
               <div className="flex space-x-4 justify-start items-center">
-                <h1 className="text-6xl font-bold">{item.number}</h1>
-                <p className="text-4xl font-medium capitalize max-w-sm">
+                <h1 className="text-3xl md:text-6xl font-bold">
+                  {item.number}
+                </h1>
+                <p className="text-xl md:text-4xl font-medium capitalize max-w-sm">
                   {item.label}
                 </p>
               </div>

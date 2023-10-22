@@ -22,7 +22,7 @@ const Navbar = () => {
   const navPaddingClass = isScrolled ? "py-0.5" : "py-3";
 
   return (
-    <nav className="fixed w-full top-0 left-0 backdrop-blur-md bg-opacity-70 bg-[#8D3AEE] p-3">
+    <nav className="fixed w-full top-0 left-0 backdrop-blur-md bg-opacity-50 bg-[#8D3AEE] p-3">
       <div
         className={`flex  items-center justify-between mx-3 lg:mx-10 md:mx-6 xl:mx-12 px-4 ${navPaddingClass} transition-all duration-300 ease-in-out`}
       >

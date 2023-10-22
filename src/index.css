@@ -2,17 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("./fonts/css/clash-display.css");
+
 body {
   margin: 0;
-  font-family: "Clash Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
+  font-family: "ClashDisplay-Variable", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
-  font-family: "Clash Display";
+  font-family: "ClashDisplay-Variable";
 }
 
 code {

@@ -7,7 +7,7 @@ const OurServices = () => {
       link: "/",
     },
     {
-      name: "Amazon Web Services",
+      name: "DevOps",
       link: "/",
     },
     {

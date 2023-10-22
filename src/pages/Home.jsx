@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <section className="bg-[#8D3AEE]">
       <Navbar />
+      <div className="py-16"></div>
       <Hero />
       <Footer />
     </section>

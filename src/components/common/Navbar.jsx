@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full top-0 left-0 z-50 backdrop-blur-md bg-opacity-50 bg-[#8D3AEE] p-3">
       <div
-        className={`flex  items-center justify-between mx-3 lg:mx-10 md:mx-6 xl:mx-12 px-4 ${navPaddingClass} transition-all duration-300 ease-in-out`}
+        className={`flex  items-center justify-between lg:mx-10 md:mx-6 xl:mx-12 px-4 ${navPaddingClass} transition-all duration-300 ease-in-out`}
       >
         <a href="/" className="flex items-center">
           <span className="self-center text-2xl lg:text-4xl font-semibold whitespace-nowrap text-gray-100">
@@ -36,7 +36,7 @@ const Navbar = () => {
             type="button"
             className="focus:ring-4 focus:outline-none font-medium rounded-full text-base lg:text-lg px-5 py-2 lg:px-8 lg:py-3 text-center mr-3 md:mr-0 bg-gray-100 hover:bg-gray-900 hover:text-white transition duration-300"
           >
-            Contact &rarr;
+            Get Started &rarr;
           </button>
           <button
             data-collapse-toggle="navbar-sticky"

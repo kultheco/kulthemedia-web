@@ -3,8 +3,8 @@ import Marquee from "react-fast-marquee";
 
 const ServiceMarquee = () => {
   const texts = [
-    "NLP",
     "Web Development",
+    "NLP",
     "Serverless",
     "Machine Learning",
     "AWS",

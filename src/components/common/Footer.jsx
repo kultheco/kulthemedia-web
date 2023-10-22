@@ -3,11 +3,11 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="">
-      <div className="pt-24 text-center flex flex-col items-center justify-center">
-        <h1 className="text-6xl  text-white font-bold uppercase">
+      <div className="pt-24 text-center flex flex-col items-center justify-center px-4 md:px-0">
+        <h1 className="text-5xl md:text-6xl  text-white font-bold uppercase">
           Ready to get things done?
         </h1>
-        <p className="text-2xl text-gray-300 py-3 max-w-3xl">
+        <p className="text-lg md:text-2xl text-gray-300 py-3 max-w-3xl">
           Our experts are here to help you out with everything that you need.
           All you need to do is click the button below
         </p>
@@ -28,7 +28,7 @@ const Footer = () => {
           Contact us &rarr;
         </a>
       </div>
-      <div className="flex justify-around items-start pt-8 pb-10 mx-4">
+      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0  items-start md:justify-around md:items-start pt-8 pb-10 mx-4">
         <div>
           <h1 className="text-5xl text-white font-medium">KM.</h1>
         </div>
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-white text-center mx-5 pb-8">
+      <div className="text-white text-sm text-center mx-5 pb-8">
         <hr class="h-px mx-24 my-8 bg-gray-200 border-1" />
         <h1>
           &copy; Copyright 2023. Kulthe Media, Limited. All rights reserved.

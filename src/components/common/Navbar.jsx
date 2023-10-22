@@ -27,14 +27,14 @@ const Navbar = () => {
         className={`flex  items-center justify-between mx-3 lg:mx-10 md:mx-6 xl:mx-12 px-4 ${navPaddingClass} transition-all duration-300 ease-in-out`}
       >
         <a href="/" className="flex items-center">
-          <span className="self-center text-4xl font-semibold whitespace-nowrap text-gray-100">
+          <span className="self-center text-2xl lg:text-4xl font-semibold whitespace-nowrap text-gray-100">
             Kulthe Media.
           </span>
         </a>
         <div className="flex md:order-2">
           <button
             type="button"
-            className="focus:ring-4 focus:outline-none  font-medium rounded-full text-lg px-8 py-3 text-center mr-3 md:mr-0 bg-gray-100 hover:bg-gray-900 hover:text-white transition duration-300"
+            className="focus:ring-4 focus:outline-none  font-medium rounded-full text-base lg:text-lg px-6 py-2 lg:px-8 lg:py-3 text-center mr-3 md:mr-0 bg-gray-100 hover:bg-gray-900 hover:text-white transition duration-300"
           >
             Contact us &rarr;
           </button>
@@ -70,7 +70,7 @@ const Navbar = () => {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border text-xl md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
               <a
-                href="/"
+                href="/services"
                 className="block py-2 pl-3 pr-4 rounded md:p-0 text-gray-100 hover:text-gray-300 transition duration-300"
                 aria-current="page"
               >
@@ -79,7 +79,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="/case-study"
                 className="block py-2 pl-3 pr-4 rounded md:p-0 text-gray-100 hover:text-gray-300 transition duration-300"
               >
                 Case Study
@@ -87,7 +87,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="/about"
                 className="block py-2 pl-3 pr-4 rounded md:p-0 text-gray-100 hover:text-gray-300 transition duration-300"
               >
                 About

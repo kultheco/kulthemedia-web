@@ -3,6 +3,7 @@ import Navbar from "../components/common/Navbar";
 import Hero from "../components/HomeComp/Hero";
 import Marquee from "../components/HomeComp/Marquee";
 import Footer from "../components/common/Footer";
+import About from "../components/HomeComp/About";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <div className="py-16"></div>
       <Hero />
       <Marquee />
+      <About />
       <Footer />
     </section>
   );

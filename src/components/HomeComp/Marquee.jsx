@@ -22,7 +22,7 @@ const ServiceMarquee = () => {
         {texts.map((text, index) => (
           <p
             key={index}
-            className="mx-3 lg:mx-8 font-semibold uppercase text-gray-500 text-4xl md:text-6xl lg:text-9xl"
+            className="mx-3 lg:mx-8 font-semibold uppercase text-gray-500 hover:bg-gradient-to-r from-purple-500 via-purple-700 to-purple-800 hover:text-transparent hover:bg-clip-text text-4xl md:text-6xl lg:text-8xl transition-all duration-300 ease-in-out"
           >
             {text}
           </p>

@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="mx-4 md:mx-8">
       <div className="text-white items-center justify-center bg-black rounded-t-3xl py-32">
         <div className="flex items-center justify-center">
-          <h1 className="uppercase text-6xl md:text-6xl lg:text-8xl px-12  text-center font-bold headings">
+          <h1 className="uppercase text-5xl md:text-6xl lg:text-8xl px-12  text-center font-bold headings">
             we build software that lasts a decade
           </h1>
         </div>

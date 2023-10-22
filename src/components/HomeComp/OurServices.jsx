@@ -40,7 +40,7 @@ const OurServices = () => {
               <h1 className="mr-10 lg:mr-28 font-semibold" key={index}>
                 {service.name}
               </h1>
-              <p className="border-2 rounded-full px-3">&rarr;</p>
+              <p className="border-2 rounded-full px-1 lg:px-3">&rarr;</p>
             </div>
           </a>
         ))}

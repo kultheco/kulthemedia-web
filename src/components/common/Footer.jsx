@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <a
           href="/contact"
-          className="focus:ring-4 focus:outline-none  font-medium rounded-full text-base lg:text-lg px-5 py-2 lg:px-8 lg:py-3 text-center mr-3 md:mr-0 bg-gray-100 hover:bg-gray-900 hover:text-white transition duration-300"
+          className="focus:ring-4 focus:outline-none  font-medium rounded-full text-base lg:text-lg px-5 py-2 lg:px-8 lg:py-3 text-center mr-3 md:mr-0 text-black bg-gray-100 hover:bg-gray-900 hover:text-white transition duration-300"
         >
           Contact &rarr;
         </a>

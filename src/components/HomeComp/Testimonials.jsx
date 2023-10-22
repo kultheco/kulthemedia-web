@@ -82,8 +82,10 @@ const Testimonials = () => {
 
   return (
     <section className="bg-[#111] text-white pt-12 pb-24">
-      <div className="flex justify-center items-center space-x-10">
-        <h1 className="text-9xl headings font-bold uppercase">Testimonials</h1>
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-10">
+        <h1 className="text-4xl md:text-6xl lg:text-9xl headings font-bold uppercase">
+          Testimonials
+        </h1>
         <a
           href="/"
           className="focus:ring-4 focus:outline-none font-medium rounded-full text-base lg:text-lg px-5 py-2 lg:px-8 lg:py-3 text-center mr-3 md:mr-0 border-2 hover:bg-gray-100 hover:text-black transition duration-300"

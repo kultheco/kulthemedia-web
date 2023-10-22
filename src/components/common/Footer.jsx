@@ -12,7 +12,7 @@ const Footer = () => {
           All you need to do is click the button below
         </p>
       </div>
-      <div className="flex items-center justify-center text-white py-12 space-x-8">
+      <div className="flex items-center justify-center text-white py-12 space-x-2 md:space-x-8 px-4">
         <div>
           <a
             href="mailto:hello@kulthemedia.com"
@@ -23,9 +23,9 @@ const Footer = () => {
         </div>
         <a
           href="/contact"
-          className="focus:ring-4 focus:outline-none  font-medium rounded-full text-lg px-8 py-3 text-center mr-3 md:mr-0 text-black bg-gray-100 hover:bg-gray-900 hover:text-white transition duration-300"
+          className="focus:ring-4 focus:outline-none  font-medium rounded-full text-base lg:text-lg px-5 py-2 lg:px-8 lg:py-3 text-center mr-3 md:mr-0 bg-gray-100 hover:bg-gray-900 hover:text-white transition duration-300"
         >
-          Contact us &rarr;
+          Contact &rarr;
         </a>
       </div>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0  items-start md:justify-around md:items-start pt-8 pb-10 mx-4">

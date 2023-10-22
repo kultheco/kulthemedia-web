@@ -40,7 +40,7 @@ const WorkStats = () => {
           {statsData.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col bg-[#333] rounded-3xl p-6 mb-4"
+              className="flex flex-col bg-[#333] shadow-xl rounded-3xl p-6 mb-4"
             >
               <div className="flex space-x-4 justify-start items-center">
                 <h1 className="text-3xl md:text-6xl font-bold">

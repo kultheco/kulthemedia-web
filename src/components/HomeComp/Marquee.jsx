@@ -3,12 +3,13 @@ import Marquee from "react-fast-marquee";
 
 const ServiceMarquee = () => {
   const texts = [
+    "NLP",
     "Web Development",
     "Serverless",
     "Machine Learning",
-    "Figma Design",
-    "AWS Deployment",
-    "Shopify Theme",
+    "AWS",
+    "Deep Learning",
+    "IOT",
   ];
 
   return (
@@ -20,12 +21,12 @@ const ServiceMarquee = () => {
         className="overflow-hidden"
       >
         {texts.map((text, index) => (
-          <p
+          <h1
             key={index}
             className="mx-3 lg:mx-8 font-semibold uppercase text-gray-500 hover:bg-gradient-to-r from-purple-500 via-purple-700 to-purple-800 hover:text-transparent hover:bg-clip-text text-4xl md:text-6xl lg:text-8xl transition-all duration-300 ease-in-out"
           >
             {text}
-          </p>
+          </h1>
         ))}
       </Marquee>
     </div>

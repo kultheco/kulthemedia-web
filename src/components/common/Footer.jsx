@@ -16,7 +16,7 @@ const Footer = () => {
         <div>
           <a
             href="mailto:hello@kulthemedia.com"
-            className="text-xl underline underline-offset-8"
+            className="text-lg md:text-xl underline underline-offset-8"
           >
             hello@kulthemedia.com
           </a>

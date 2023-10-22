@@ -20,7 +20,7 @@ const OurServices = () => {
     },
   ];
   return (
-    <section className="px-4">
+    <section className="px-4 pb-24">
       <div className="flex flex-col md:flex-row space-x-0 space-y-6 md:space-y-0 md:space-x-10 items-center justify-center py-24">
         <h1 className="text-4xl md:text-6xl lg:text-9xl uppercase headings font-bold">
           Our Services

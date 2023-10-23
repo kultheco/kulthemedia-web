@@ -3,7 +3,7 @@ import WorkStats from "./WorkStats";
 
 const About = () => {
   return (
-    <section className="bg-[#222] text-white px-4">
+    <section className="bg-[#111] text-white px-4">
       <div className="flex flex-col md:flex-row justify-center items-center md:space-x-6 pt-20">
         <h1 className="headings text-4xl md:text-6xl lg:text-9xl font-bold uppercase">
           About

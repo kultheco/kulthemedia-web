@@ -31,10 +31,10 @@ const Hero = () => {
             backgroundImage: `url(${bgimg})`,
           }}
         >
-          <h1 className="headings text-4xl md:text-6xl lg:text-8xl  font-bold text-center pt-24 pb-8 px-4 uppercase">
+          <h1 className="headings text-lg md:text-4xl lg:text-8xl font-bold text-center pt-24 pb-8 px-4 uppercase">
             different <span ref={typingRef}></span>
           </h1>
-          <p className="md:text-4xl pb-16 capitalize text-center text-xl px-5">
+          <p className="md:text-4xl pb-16 capitalize text-center text-4xl px-5">
             Every client is <strong>unique</strong>. And we value{" "}
             <strong className="capitalize">Uniqueness</strong>.
           </p>

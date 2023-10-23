@@ -25,3 +25,21 @@ code {
 .headings {
   @apply text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-100 via-gray-200/90 to-gray-300;
 }
+
+.brightness-filter {
+  filter: brightness(
+    0.75
+  ); /* Adjust the brightness value (0.75 for 75%) as needed */
+}
+
+.brightness-filter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.25); /* Adjust the opacity as needed */
+  filter: brightness(0.75); /* Adjust the brightness value as needed */
+  z-index: -1;
+}

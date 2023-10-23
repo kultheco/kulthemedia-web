@@ -27,8 +27,11 @@ const Navbar = () => {
         className={`flex  items-center justify-between lg:mx-10 md:mx-6 xl:mx-12 px-4 ${navPaddingClass} transition-all duration-300 ease-in-out`}
       >
         <a href="/" className="flex items-center">
-          <span className="self-center text-2xl lg:text-4xl font-semibold whitespace-nowrap text-gray-100">
+          <span className="self-center hidden md:inline text-2xl lg:text-4xl font-semibold whitespace-nowrap text-gray-100">
             Kulthe Media.
+          </span>
+          <span className="self-center inline md:hidden text-2xl lg:text-4xl font-semibold whitespace-nowrap text-gray-100">
+            KM.
           </span>
         </a>
         <div className="flex md:order-2">

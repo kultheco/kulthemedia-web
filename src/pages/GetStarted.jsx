@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/common/Navbar";
-import Footer from "../components/common/Footer";
+import Footer from "../components/common/FooterMin";
 import Hero from "../components/GetComp/Hero";
 import GetStartedFilling from "../components/GetComp/GetStartedFilling";
 import GSForm from "../components/GetComp/GSForm";

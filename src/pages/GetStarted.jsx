@@ -4,6 +4,7 @@ import Footer from "../components/common/Footer";
 import Hero from "../components/GetComp/Hero";
 import GetStartedFilling from "../components/GetComp/GetStartedFilling";
 import GSForm from "../components/GetComp/GSForm";
+import Await from "../components/GetComp/Await";
 
 const GetStarted = () => {
   return (
@@ -12,6 +13,7 @@ const GetStarted = () => {
       <Hero />
       <GetStartedFilling />
       <GSForm />
+      <Await />
       <Footer />
     </section>
   );

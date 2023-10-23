@@ -3,6 +3,7 @@ import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
 import Hero from "../components/GetComp/Hero";
 import GetStartedFilling from "../components/GetComp/GetStartedFilling";
+import GSForm from "../components/GetComp/GSForm";
 
 const GetStarted = () => {
   return (
@@ -10,6 +11,7 @@ const GetStarted = () => {
       <Navbar />
       <Hero />
       <GetStartedFilling />
+      <GSForm />
       <Footer />
     </section>
   );

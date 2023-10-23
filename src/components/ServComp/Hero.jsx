@@ -3,17 +3,17 @@ import React from "react";
 const Hero = () => {
   const servDetails = [
     {
-      mainText: "Full stack",
+      mainText: "MERN Stack",
       secondText:
         "Track and pay bills on time. And get a clear overview of accounts payable and cash flow.",
     },
     {
-      mainText: "DevOps (Sec)",
+      mainText: "DevOps ",
       secondText:
         "People around the world trust serverless functionalities and edge co",
     },
     {
-      mainText: "AI / ML",
+      mainText: "ML & DL",
       secondText:
         "Development at its core. Using serverless functionalities and edge computing",
     },
@@ -34,10 +34,17 @@ const Hero = () => {
             Don't take the hassle to develop random solutions at random places,
             when you can get it all done in one house!
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 px-3 gap-3 pb-6 lg:pb-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-3 gap-3 pb-6 lg:pb-24">
             {servDetails.map((serv, index) => (
-              <div className="bg-[#222] p-10 rounded-3xl flex flex-col items-start justify-center hover:bg-white hover:text-black transition-all duration-300">
-                <h1 className="text-3xl lg:text-5xl font-bold uppercase">
+              <div className="bg-[#222] p-10 rounded-3xl flex flex-col items-start justify-center hover:bg-white hover:text-black transition-all duration-300 relative">
+                <div className="absolute top-3 right-3 text-white text-4xl">
+                  &rarr;
+                </div>
+
+                <h1
+                  className="text-3xl lg:text-5xl font-bold uppercase"
+                  key={index}
+                >
                   {serv.mainText}
                 </h1>
                 <h2 className="text-lg lg:text-xl pt-3">{serv.secondText}</h2>

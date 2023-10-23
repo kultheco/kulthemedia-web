@@ -4,17 +4,17 @@ const MoreThan = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const sectionStyles = {
-    backgroundColor: isHovered ? "white" : "#222",
+    backgroundColor: isHovered ? "#222" : "#fbfbfb",
     transition: "background-color 0.3s",
   };
 
   const anchorStyles = {
-    backgroundColor: isHovered ? "#222" : "white",
-    color: isHovered ? "white" : "#222",
+    backgroundColor: isHovered ? "#fbfbfb" : "#222",
+    color: isHovered ? "#222" : "#fbfbfb",
     transition: "background-color 0.3s, color 0.3s",
   };
   const h1styles = {
-    color: isHovered ? "#222" : "white",
+    color: isHovered ? "#fbfbfb" : "#222",
     transition: "background-color 0.3s, color 0.3s",
   };
 
@@ -29,10 +29,10 @@ const MoreThan = () => {
         <div className="flex justify-center py-12">
           <div className="flex justify-center items-center space-x-5 max-w-6xl px-4 md:px-6 lg:px-3">
             <h1
-              className="text-left text-4xl md:text-6xl lg:text-8xl font-bold uppercase"
+              className="text-left text-4xl md:text-6xl lg:text-7xl font-bold uppercase"
               style={h1styles}
             >
-              enterprise grade at it's core
+              enterprise grade solutions at it's core
             </h1>
             <a
               href="/"

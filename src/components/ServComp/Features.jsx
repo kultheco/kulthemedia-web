@@ -33,7 +33,7 @@ const Features = () => {
       <div className="text-white">
         <div className="flex flex-col lg:flex-row justify-center items-center uppercase space-y-4 px-4 lg:space-y-0 lg:space-x-12">
           <div className="">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-9xl headings font-bold text-left max-w-2xl">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-9xl headings font-bold text-center lg:text-left max-w-2xl">
               you deserve the best
             </h1>
           </div>

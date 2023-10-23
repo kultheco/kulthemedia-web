@@ -38,7 +38,7 @@ const Hero = () => {
             {servDetails.map((serv, index) => (
               <div className="bg-[#222] p-10 rounded-3xl flex flex-col items-start justify-center hover:bg-white hover:text-black transition-all duration-300 relative">
                 <div className="absolute top-3 right-3 text-white text-4xl">
-                  &rarr;
+                  <p> &rarr;</p>
                 </div>
 
                 <h1

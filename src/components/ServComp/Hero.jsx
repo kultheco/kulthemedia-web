@@ -34,7 +34,7 @@ const Hero = () => {
             Don't take the hassle to develop random solutions at random places,
             when you can get it all done in one house!
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 px-3 gap-3 pb-24">
+          <div className="grid grid-cols-1 md:grid-cols-4 px-3 gap-3 pb-6 lg:pb-24">
             {servDetails.map((serv, index) => (
               <div className="bg-[#222] p-10 rounded-3xl flex flex-col items-start justify-center hover:bg-white hover:text-black transition-all duration-300">
                 <h1 className="text-3xl lg:text-5xl font-bold uppercase">

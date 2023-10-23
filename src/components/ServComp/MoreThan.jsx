@@ -26,9 +26,9 @@ const MoreThan = () => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="flex justify-center py-12">
-        <div className="flex justify-center items-center space-x-5 max-w-6xl">
+        <div className="flex justify-center items-center space-x-5 max-w-6xl px-4 md:px-6 lg:px-3">
           <h1
-            className="text-left  text-8xl font-bold uppercase"
+            className="text-left text-4xl md:text-6xl lg:text-8xl font-bold uppercase"
             style={h1styles}
           >
             enterprise grade at it's core
